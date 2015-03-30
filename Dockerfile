@@ -1,4 +1,4 @@
-FROM always3133/ubuntu-cuda4tesla
+FROM nakosung/ubuntu-cuda4tesla
 
 # Get dependencies
 RUN apt-get update && apt-get install -y \
