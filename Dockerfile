@@ -1,4 +1,4 @@
-FROM nakosung/ubuntu-cuda4tesla
+FROM nakosung/ubuntu-cuda4gtx980
 
 # Get dependencies
 RUN apt-get update && apt-get install -y \
